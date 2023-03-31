@@ -12,10 +12,17 @@ const displayDate = () => {
 
   document.getElementById("display-element").innerHTML = currentDate;
 }
+
  
 
 // Write a JavaScript program to convert a number to a string.
+  const numberToString = (number) => {
 
+    console.log("I like number " + number.toString())
+
+  }
+
+  numberToString(5)
 
 
 // Write a JavaScript program to convert a string to the number.
